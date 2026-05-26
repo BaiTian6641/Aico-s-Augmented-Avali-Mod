@@ -24,7 +24,7 @@
 
   "objectType" : "container",
   "slotCount" : 32,
-  "uiConfig" : "/interface/objectsource/storagebox.config",
+  "uiConfig" : "/interface/chests/chest3.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 

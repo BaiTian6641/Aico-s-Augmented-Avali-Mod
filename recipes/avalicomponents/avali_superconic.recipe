@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "siliconboard", "count" : 2 },
-    { "item" : "copperwire", "count" : 3 },
+    { "item" : "copperbar", "count" : 3 },
     { "item" : "goldbar", "count" : 1 }
   ],
   "output" : { "item" : "avali_superconic", "count" : 1 },

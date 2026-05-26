@@ -1,12 +1,12 @@
 {
   "frameGrid" : {
-    "size" : [8, 8],
+    "size" : [56, 29],
     "dimensions" : [1, 1],
     "names" : [
-      [ "default.default" ]
+      [ "default.0" ]
     ]
   },
   "aliases" : {
-    "default.default" : "default.default"
+    "default" : "default.0"
   }
 }
