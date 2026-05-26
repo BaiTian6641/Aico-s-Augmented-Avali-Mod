@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "avali_largegraphene", "count" : 2 },
+    { "item" : "avali_tungalloycase", "count" : 2 },
+    { "item" : "avali_funccomp", "count" : 2 }
+  ],
+  "output" : { "item" : "avali_largeprocessor", "count" : 1 },
+  "groups" : [ "avali", "nanofabricator", "all" ],
+  "duration" : 2.0
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "avali_tungalloycase",
+  "rarity" : "uncommon",
+  "price" : 60,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "avali_tungalloycase.png",
+  "description" : "A precision-machined tungsten alloy casing. Provides excellent shielding and structural integrity.",
+  "shortdescription" : "Tungsten Alloy Shell",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "avali_computeunit", "count" : 4 },
+    { "item" : "avali_tungalloycase", "count" : 3 },
+    { "item" : "avali_superconic", "count" : 2 },
+    { "item" : "avali_funccomp", "count" : 2 }
+  ],
+  "output" : { "item" : "avali_processorarray", "count" : 1 },
+  "groups" : [ "avali", "nanofabricator", "all" ],
+  "duration" : 2.5
+}

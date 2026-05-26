@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "avali_tungalloycase", "count" : 2 },
+    { "item" : "avaligraphene", "count" : 15 },
+    { "item" : "avali_funccomp", "count" : 1 }
+  ],
+  "output" : { "item" : "avali_stove", "count" : 1 },
+  "groups" : [ "avali", "inventorstable2", "all" ],
+  "duration" : 1.5
+}

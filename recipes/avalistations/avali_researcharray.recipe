@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "avali_combinunit", "count" : 4 },
+    { "item" : "avali_processorarray", "count" : 1 },
+    { "item" : "avali_largegraphene", "count" : 2 },
+    { "item" : "avali_superconic", "count" : 4 },
+    { "item" : "avali_tungalloycase", "count" : 3 }
+  ],
+  "output" : { "item" : "avali_researcharray", "count" : 1 },
+  "groups" : [ "avali", "nanofabricator", "all" ],
+  "duration" : 3.0
+}

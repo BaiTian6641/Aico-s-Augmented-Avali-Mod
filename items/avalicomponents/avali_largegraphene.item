@@ -1,0 +1,10 @@
+{
+  "itemName" : "avali_largegraphene",
+  "rarity" : "uncommon",
+  "price" : 120,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "avali_largegraphene.png",
+  "description" : "A large, reinforced graphene panel. Used in advanced Avali construction.",
+  "shortdescription" : "Large Graphene Component",
+  "itemTags" : [ "reagent" ]
+}

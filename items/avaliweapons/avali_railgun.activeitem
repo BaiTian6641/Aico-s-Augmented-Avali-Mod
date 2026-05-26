@@ -1,0 +1,28 @@
+{
+  "itemName" : "avali_railgun",
+  "price" : 1200,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An Avali magnetic railgun. Fires supersonic projectiles using electromagnetic acceleration.",
+  "shortdescription" : "Avali Railgun",
+  "tooltipKind" : "gun",
+  "category" : "assaultrifle",
+  "twoHanded" : true,
+
+  "itemTags" : ["weapon", "ranged", "assaultrifle", "avali", "railgun"],
+
+  "inventoryIcon" : "avali_railgun.png",
+
+  "scripts" : ["/items/active/weapons/ranged/assaultrifle/assaultrifle.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "assaultrifle",
+  "primaryAbility" : {
+    "fireTime" : 0.4,
+    "baseDps" : 16.0
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "avaliwallpanel", "count" : 1 }
-  ],
-  "output" : { "item" : "avaliwallpanel", "count" : 1 },
-  "groups" : [ "avalibuildings", "avali" ]
-}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "avali_compprinter",
+  "colonyTags" : [ "avali", "science" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "price" : 350,
+  "description" : "A precision component printer using Avali nano-fabrication technology. Used to manufacture advanced electronic components.",
+  "shortdescription" : "^orange;Component Printer^reset;",
+  "race" : "avali",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftinganvil.config",
+    "filter" : [ "avali", "inventorstable2", "all" ]
+  },
+
+  "inventoryIcon" : "avali_compprinter.png",
+  "orientations" : [
+    {
+      "dualImage" : "avali_compprinter.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

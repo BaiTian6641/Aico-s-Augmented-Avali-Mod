@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 2 },
+    { "item" : "copperwire", "count" : 3 },
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "avali_superconic", "count" : 1 },
+  "groups" : [ "avali", "inventorstable2", "all" ],
+  "duration" : 0.75
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "avali_superconic",
+  "rarity" : "uncommon",
+  "price" : 85,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "avali_superconic.png",
+  "description" : "A superconducting integrated circuit board. Operates at near-zero resistance for maximum computational efficiency.",
+  "shortdescription" : "Superconducting IC Board",
+  "itemTags" : [ "reagent" ]
+}

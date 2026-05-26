@@ -1,0 +1,33 @@
+{
+  "objectName" : "avali_reinstore3",
+  "colonyTags" : [ "avali", "storage" ],
+  "rarity" : "Legendary",
+  "category" : "storage",
+  "price" : 1000,
+  "printable" : false,
+
+  "description" : "A maximally reinforced Avali storage vault. Incorporates quantum-locked composite armor for ultimate security.",
+  "shortdescription" : "Reinforced Storage Box III",
+  "race" : "avali",
+
+  "inventoryIcon" : "avali_reinstore3.png",
+  "orientations" : [
+    {
+      "image" : "avali_reinstore3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "container",
+  "slotCount" : 48,
+  "uiConfig" : "/interface/objectsource/storagebox.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "openSounds" : [ "/sfx/objects/chest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_close.ogg" ]
+}

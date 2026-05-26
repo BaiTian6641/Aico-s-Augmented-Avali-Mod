@@ -1,0 +1,10 @@
+{
+  "itemName" : "avali_funccomp",
+  "rarity" : "uncommon",
+  "price" : 150,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "avali_funccomp.png",
+  "description" : "A modular functional component housing processing logic, power regulation, and I/O interfaces.",
+  "shortdescription" : "Functional Component",
+  "itemTags" : [ "reagent" ]
+}

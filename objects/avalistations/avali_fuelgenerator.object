@@ -1,0 +1,71 @@
+{
+  "objectName" : "avali_fuelgenerator",
+  "rarity" : "rare",
+  "colonyTags" : [ "avali", "science" ],
+  "category" : "wire",
+  "objectType" : "container",
+  "price" : 1800,
+  "printable" : false,
+
+  "description" : "An Avali-designed fuel-to-electricity converter. Accepts various fuels from Frackin' Universe. ^orange;Fuel quality determines power output.^reset; ^blue;Left Input^reset;: On/Off Switch",
+  "shortdescription" : "^cyan;Avali Fuel Generator^reset;",
+  "race" : "avali",
+
+  "inventoryIcon" : "avali_fuelgenerator.png",
+  "orientations" : [
+    {
+      "image" : "avali_fuelgenerator.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/objectsource/powergeneratorinterface.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/fupower.lua", "/scripts/avali_fuelgenerator.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [2, 4], [0, 4] ],
+  "outputNodes" : [ [2, 2] ],
+
+  "powertype" : "output",
+
+  "acceptablefuel" : {
+    "biofuelcannister" : 35,
+    "biofuelcannisteradv" : 45,
+    "uraniumrod" : 45,
+    "energiflower" : 55,
+    "plutoniumrod" : 60,
+    "helium3gasliquid" : 65,
+    "neptuniumrod" : 80,
+    "enricheduranium" : 120,
+    "energywood" : 95,
+    "thoriumrod" : 80,
+    "fu_hydrogenmetallic" : 230,
+    "biofuelcannistermax" : 180,
+    "enrichedplutonium" : 200,
+    "liquidelderfluid" : 130,
+    "deuterium" : 250,
+    "tritium" : 270,
+    "solariumstar" : 400,
+    "ultronium" : 450,
+    "liquidmetallichydrogen" : 500,
+    "liquiddeuterium" : 540,
+    "schrodingerscat" : 800
+  },
+
+  "heat" : [
+    {"minheat" : 70, "power" : 18, "light" : [255, 180, 80], "sound" : true},
+    {"minheat" : 50, "power" : 14, "light" : [255, 160, 60], "sound" : true},
+    {"minheat" : 30, "power" : 10, "light" : [255, 140, 40], "sound" : true},
+    {"minheat" : 20, "power" : 7,  "light" : [255, 120, 30], "sound" : true},
+    {"minheat" : 5,  "power" : 4,  "light" : [200, 100, 20], "sound" : true},
+    {"minheat" : 0,  "power" : 0,  "light" : [0, 0, 0],     "sound" : false}
+  ]
+}

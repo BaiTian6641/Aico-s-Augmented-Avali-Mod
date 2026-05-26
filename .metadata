@@ -3,7 +3,7 @@
   "description" : "A mod that adds new buildings, furniture, weapons, and features for the Avali race in Starbound.",
   "friendlyName" : "Aico's Augmented Avali",
   "name" : "aicos-augmented-avali",
-  "requires" : [],
+  "requires" : [ "frackinuniverse" ],
   "version" : "0.1.0",
   "tags" : "Furniture and Objects|Weapons|Species|Crafting and Building"
 }

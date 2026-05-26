@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "avali_tungalloycase", "count" : 3 },
+    { "item" : "avaligraphene", "count" : 20 },
+    { "item" : "avali_funccomp", "count" : 2 }
+  ],
+  "output" : { "item" : "avali_fuelgenerator", "count" : 1 },
+  "groups" : [ "avali", "nanofabricator", "powerstation", "all" ],
+  "duration" : 2.0
+}

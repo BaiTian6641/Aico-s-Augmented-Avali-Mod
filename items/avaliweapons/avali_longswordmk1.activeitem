@@ -1,37 +1,36 @@
 {
-  "itemName" : "avaliplasmasword",
-  "price" : 500,
+  "itemName" : "avali_longswordmk1",
+  "price" : 350,
   "level" : 3,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "An Avali-crafted plasma blade. Lightweight and deadly.",
-  "shortdescription" : "Avali Plasma Sword",
+  "description" : "An Avali-crafted long sword. Superior reach with precision engineering.",
+  "shortdescription" : "Avali Long Sword MkI",
   "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : false,
 
   "itemTags" : ["weapon", "melee", "broadsword", "avali"],
 
-  "inventoryIcon" : "avaliplasmasword.png",
+  "inventoryIcon" : "avali_longswordmk1.png",
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "avaliplasmasword.png"
+    "blade" : "avali_longswordmk1.png"
   },
-  "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "electric",
+  "elementalType" : "physical",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.75,
-    "baseDps" : 12.0
+    "fireTime" : 0.7,
+    "baseDps" : 10.0
   },
 
   "altAbilityType" : "risingslash",
-  "critChance" : 2,
-  "critBonus" : 6,
+  "critChance" : 3,
+  "critBonus" : 5,
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

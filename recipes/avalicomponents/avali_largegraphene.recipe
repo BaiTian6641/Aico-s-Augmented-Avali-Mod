@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "aerogel", "count" : 3 },
+    { "item" : "avaligraphene", "count" : 5 }
+  ],
+  "output" : { "item" : "avali_largegraphene", "count" : 1 },
+  "groups" : [ "avali", "avalilathe", "inventorstable2", "all" ],
+  "duration" : 1.0
+}

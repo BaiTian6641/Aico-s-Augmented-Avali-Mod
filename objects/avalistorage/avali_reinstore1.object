@@ -1,0 +1,33 @@
+{
+  "objectName" : "avali_reinstore1",
+  "colonyTags" : [ "avali", "storage" ],
+  "rarity" : "Uncommon",
+  "category" : "storage",
+  "price" : 250,
+  "printable" : false,
+
+  "description" : "A reinforced Avali storage container. Tungsten alloy reinforced for extra durability.",
+  "shortdescription" : "Reinforced Storage Box I",
+  "race" : "avali",
+
+  "inventoryIcon" : "avali_reinstore1.png",
+  "orientations" : [
+    {
+      "image" : "avali_reinstore1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "container",
+  "slotCount" : 24,
+  "uiConfig" : "/interface/objectsource/storagebox.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "openSounds" : [ "/sfx/objects/chest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_close.ogg" ]
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "avali_stove",
+  "colonyTags" : [ "avali", "cooking" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "An integrated Avali cooking station. Combines induction heating, precision temperature control, and multi-zone cooking surfaces.",
+  "shortdescription" : "^orange;Integrated Avali Stove^reset;",
+  "race" : "avali",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfood.config",
+    "filter" : [ "craftingfood", "campfire" ]
+  },
+
+  "inventoryIcon" : "avali_stove.png",
+  "orientations" : [
+    {
+      "dualImage" : "avali_stove.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

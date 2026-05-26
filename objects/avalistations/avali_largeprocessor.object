@@ -1,0 +1,33 @@
+{
+  "objectName" : "avali_largeprocessor",
+  "colonyTags" : [ "avali", "science" ],
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "crafting",
+  "price" : 800,
+  "description" : "A large-scale Avali equipment fabrication station. Handles the assembly of complex machinery and processor arrays.",
+  "shortdescription" : "^orange;Large Equipment Processing Station^reset;",
+  "race" : "avali",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftinganvil.config",
+    "filter" : [ "avali", "nanofabricator", "all" ]
+  },
+
+  "inventoryIcon" : "avali_largeprocessor.png",
+  "orientations" : [
+    {
+      "dualImage" : "avali_largeprocessor.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

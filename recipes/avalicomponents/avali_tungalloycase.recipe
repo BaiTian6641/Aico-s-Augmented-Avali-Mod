@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 2 },
+    { "item" : "lead", "count" : 1 }
+  ],
+  "output" : { "item" : "avali_tungalloycase", "count" : 1 },
+  "groups" : [ "avali", "inventorstable1", "all" ],
+  "duration" : 0.5
+}

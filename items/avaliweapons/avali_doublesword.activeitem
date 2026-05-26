@@ -1,0 +1,36 @@
+{
+  "itemName" : "avali_doublesword",
+  "price" : 180,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A lightweight Avali double-edged short sword. Quick and agile.",
+  "shortdescription" : "Avali Double Sword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+
+  "itemTags" : ["weapon", "melee", "shortsword", "avali"],
+
+  "inventoryIcon" : "avali_doublesword.png",
+  "animation" : "/items/active/weapons/melee/shortsword/shortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "avali_doublesword.png"
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 8.0
+  },
+
+  "altAbilityType" : "spinslash",
+  "critChance" : 2,
+  "critBonus" : 4,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

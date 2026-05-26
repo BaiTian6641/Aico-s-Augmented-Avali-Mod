@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "avali_funccomp", "count" : 2 },
+    { "item" : "avali_largegraphene", "count" : 1 },
+    { "item" : "avali_superconic", "count" : 1 }
+  ],
+  "output" : { "item" : "avali_computeunit", "count" : 1 },
+  "groups" : [ "avali", "inventorstable3", "all" ],
+  "duration" : 1.5
+}

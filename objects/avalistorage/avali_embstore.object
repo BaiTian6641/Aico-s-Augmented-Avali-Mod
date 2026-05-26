@@ -1,0 +1,33 @@
+{
+  "objectName" : "avali_embstore",
+  "colonyTags" : [ "avali", "storage" ],
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 120,
+  "printable" : false,
+
+  "description" : "A sleek embedded storage unit. Fits flush against Avali walls.",
+  "shortdescription" : "Embedded Storage Box",
+  "race" : "avali",
+
+  "inventoryIcon" : "avali_embstore.png",
+  "orientations" : [
+    {
+      "image" : "avali_embstore.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "objectType" : "container",
+  "slotCount" : 16,
+  "uiConfig" : "/interface/objectsource/storagebox.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "openSounds" : [ "/sfx/objects/chest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_close.ogg" ]
+}

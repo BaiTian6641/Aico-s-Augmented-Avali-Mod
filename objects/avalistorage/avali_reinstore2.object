@@ -1,0 +1,33 @@
+{
+  "objectName" : "avali_reinstore2",
+  "colonyTags" : [ "avali", "storage" ],
+  "rarity" : "Rare",
+  "category" : "storage",
+  "price" : 500,
+  "printable" : false,
+
+  "description" : "A heavily reinforced Avali storage container. Graphene-enhanced armor plating.",
+  "shortdescription" : "Reinforced Storage Box II",
+  "race" : "avali",
+
+  "inventoryIcon" : "avali_reinstore2.png",
+  "orientations" : [
+    {
+      "image" : "avali_reinstore2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "container",
+  "slotCount" : 32,
+  "uiConfig" : "/interface/objectsource/storagebox.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "openSounds" : [ "/sfx/objects/chest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_close.ogg" ]
+}

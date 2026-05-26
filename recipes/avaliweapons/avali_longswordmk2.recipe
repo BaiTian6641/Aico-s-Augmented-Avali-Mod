@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avali_longswordmk1", "count" : 1 },
+    { "item" : "avali_computeunit", "count" : 1 }
+  ],
+  "output" : { "item" : "avali_longswordmk2", "count" : 1 },
+  "groups" : [ "avali", "anvil3", "all" ],
+  "duration" : 1.0
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "avali_computeunit", "count" : 2 },
+    { "item" : "avali_funccomp", "count" : 1 },
+    { "item" : "avali_largegraphene", "count" : 2 }
+  ],
+  "output" : { "item" : "avali_combinunit", "count" : 1 },
+  "groups" : [ "avali", "nanofabricator", "all" ],
+  "duration" : 2.0
+}

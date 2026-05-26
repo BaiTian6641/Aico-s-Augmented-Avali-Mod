@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "avali_embstore", "count" : 1 },
+    { "item" : "avali_tungalloycase", "count" : 1 }
+  ],
+  "output" : { "item" : "avali_reinstore1", "count" : 1 },
+  "groups" : [ "avali", "craftingfurniture2", "all" ],
+  "duration" : 0.5
+}

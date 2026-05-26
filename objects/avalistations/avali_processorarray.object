@@ -1,0 +1,39 @@
+{
+  "objectName" : "avali_processorarray",
+  "rarity" : "rare",
+  "colonyTags" : [ "avali", "science" ],
+  "category" : "wire",
+  "objectType" : "container",
+  "price" : 2200,
+  "printable" : false,
+
+  "description" : "An Avali integrated processor array server rack. ^cyan;Insert Integrated or Combined Computing Units to generate Research points passively.^reset; ^orange;Up to 10 computing units. More units = more power required.^reset;",
+  "shortdescription" : "^cyan;Integrated Processor Array^reset;",
+  "race" : "avali",
+
+  "inventoryIcon" : "avali_processorarray.png",
+  "orientations" : [
+    {
+      "image" : "avali_processorarray.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "slotCount" : 10,
+  "uiConfig" : "/interface/objectsource/storagebox.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/fupower.lua", "/scripts/avali_processorarray.lua" ],
+  "scriptDelta" : 10,
+
+  "powertype" : "input",
+  "inputNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+  "closeSounds" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+}
