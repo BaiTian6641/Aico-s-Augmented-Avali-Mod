@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "avaliplasmasword", "count" : 1 }
+  ],
+  "output" : { "item" : "avaliplasmasword", "count" : 1 },
+  "groups" : [ "avaliweapons", "avali" ]
+}

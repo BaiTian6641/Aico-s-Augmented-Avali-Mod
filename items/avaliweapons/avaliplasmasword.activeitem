@@ -1,0 +1,37 @@
+{
+  "itemName" : "avaliplasmasword",
+  "price" : 500,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An Avali-crafted plasma blade. Lightweight and deadly.",
+  "shortdescription" : "Avali Plasma Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : false,
+
+  "itemTags" : ["weapon", "melee", "broadsword", "avali"],
+
+  "inventoryIcon" : "avaliplasmasword.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "avaliplasmasword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.75,
+    "baseDps" : 12.0
+  },
+
+  "altAbilityType" : "risingslash",
+  "critChance" : 2,
+  "critBonus" : 6,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

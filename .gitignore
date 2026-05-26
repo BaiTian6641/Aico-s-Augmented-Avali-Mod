@@ -1,0 +1,10 @@
+# Aico's Augmented Avali Mod
+# A Starbound mod adding buildings, weapons, and features for the Avali race
+
+# References
+references/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
