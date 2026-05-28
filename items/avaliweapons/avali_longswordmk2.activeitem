@@ -1,14 +1,14 @@
 {
   "itemName" : "avali_longswordmk2",
-  "price" : 650,
-  "level" : 5,
+  "price" : 160,
+  "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "description" : "An upgraded Avali long sword with integrated computing unit for combat prediction.",
+  "rarity" : "legendary",
+  "description" : "The 'Dire Shard' longblade is a rather impractical weapon, nonetheless the heavier variants can allegedly cleave a tank in two.",
   "shortdescription" : "Avali Long Sword MkII",
   "tooltipKind" : "sword",
   "category" : "broadsword",
-  "twoHanded" : false,
+  "twoHanded" : true,
 
   "itemTags" : ["weapon", "melee", "broadsword", "avali"],
 
@@ -24,13 +24,15 @@
       "parts" : {
         "blade" : {
           "properties" : {
-            "offset" : [ 0.5, 2.25 ]
+            "offset" : [ -0.2, 3 ]
           }
         }
       }
     },
     "sounds" : {
-      "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
+      "fire" : [ "/sfx/avali/Swing1.ogg", "/sfx/avali/Swing2.ogg" ],
+      "fire2" : [ "/sfx/avali/Swing2.ogg", "/sfx/avali/Swing12.ogg" ],
+      "fire3" : [ "/sfx/avali/Swing3.ogg" ]
     }
   },
 
@@ -40,8 +42,8 @@
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.65,
-    "baseDps" : 14.0,
+    "fireTime" : 0.83,
+    "baseDps" : 11.5,
     "damageConfig" : {
       "damageSourceKind" : "aerotech",
       "knockback" : 20,
@@ -51,8 +53,9 @@
   },
 
   "baseWeaponRotation" : 10,
-  "altAbilityType" : "risingslash",
-  "critChance" : 5,
+  "palette" : "/items/active/weapons/colors/tier9melee.weaponcolors",
+  "altAbilityType" : "bladecharge",
+  "critChance" : 2,
   "critBonus" : 8,
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

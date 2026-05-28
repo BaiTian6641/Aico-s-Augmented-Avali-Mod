@@ -1,14 +1,14 @@
 {
   "itemName" : "avali_doublesword",
-  "price" : 180,
-  "level" : 2,
+  "price" : 150,
+  "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A lightweight Avali double-edged short sword. Quick and agile.",
+  "rarity" : "legendary",
+  "description" : "The 'Shard' class vibroblade is more popular among colonists, martial arts enthusiasts and comic-book nerds than actual soldiers and hunters.",
   "shortdescription" : "Avali Double Sword",
   "tooltipKind" : "sword",
   "category" : "shortsword",
-  "twoHanded" : false,
+  "twoHanded" : true,
 
   "itemTags" : ["weapon", "melee", "shortsword", "avali"],
 
@@ -24,12 +24,12 @@
       "parts" : {
         "blade" : {
           "properties" : {
-            "offset" : [ 0, -0.25 ]
+            "offset" : [ -0.7, -0.4 ]
           }
         },
         "swoosh" : {
           "properties" : {
-            "offset" : [ 2.75, -2 ]
+            "offset" : [ 2.9, -2.1 ]
           }
         }
       }
@@ -42,18 +42,14 @@
 
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.5,
-    "baseDps" : 8.0,
-    "damageConfig" : {
-      "damageSourceKind" : "aerotech",
-      "knockback" : 10,
-      "knockbackMode" : "facing"
-    }
+    "fireTime" : 0.625,
+    "baseDps" : 8.5
   },
 
   "baseWeaponRotation" : 10,
+  "palette" : "/items/active/weapons/colors/tier3melee.weaponcolors",
   "altAbilityType" : "spinslash",
   "critChance" : 2,
-  "critBonus" : 4,
+  "critBonus" : 8,
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
