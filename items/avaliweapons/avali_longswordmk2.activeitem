@@ -13,10 +13,25 @@
   "itemTags" : ["weapon", "melee", "broadsword", "avali"],
 
   "inventoryIcon" : "avali_longswordmk2.png",
-  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animation" : "/items/avaliweapons/animations/avali_broadsword.animation",
   "animationParts" : {
     "handle" : "",
     "blade" : "avali_longswordmk2.png"
+  },
+
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {
+          "properties" : {
+            "offset" : [ 0.5, 2.25 ]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword.ogg" ]
+    }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -26,9 +41,16 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.65,
-    "baseDps" : 14.0
+    "baseDps" : 14.0,
+    "damageConfig" : {
+      "damageSourceKind" : "aerotech",
+      "knockback" : 20,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
   },
 
+  "baseWeaponRotation" : 10,
   "altAbilityType" : "risingslash",
   "critChance" : 5,
   "critBonus" : 8,

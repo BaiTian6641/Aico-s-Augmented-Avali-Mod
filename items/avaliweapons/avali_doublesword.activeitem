@@ -13,10 +13,27 @@
   "itemTags" : ["weapon", "melee", "shortsword", "avali"],
 
   "inventoryIcon" : "avali_doublesword.png",
-  "animation" : "/items/active/weapons/melee/shortsword/shortsword.animation",
+  "animation" : "/items/avaliweapons/animations/avali_shortsword.animation",
   "animationParts" : {
     "handle" : "",
     "blade" : "avali_doublesword.png"
+  },
+
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {
+          "properties" : {
+            "offset" : [ 0, -0.25 ]
+          }
+        },
+        "swoosh" : {
+          "properties" : {
+            "offset" : [ 2.75, -2 ]
+          }
+        }
+      }
+    }
   },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
@@ -26,9 +43,15 @@
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.5,
-    "baseDps" : 8.0
+    "baseDps" : 8.0,
+    "damageConfig" : {
+      "damageSourceKind" : "aerotech",
+      "knockback" : 10,
+      "knockbackMode" : "facing"
+    }
   },
 
+  "baseWeaponRotation" : 10,
   "altAbilityType" : "spinslash",
   "critChance" : 2,
   "critBonus" : 4,
