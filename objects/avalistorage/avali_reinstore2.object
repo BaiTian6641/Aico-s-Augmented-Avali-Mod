@@ -28,6 +28,6 @@
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
-  "openSounds" : [ "/sfx/objects/chest_open.ogg" ],
-  "closeSounds" : [ "/sfx/objects/chest_close.ogg" ]
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ]
 }

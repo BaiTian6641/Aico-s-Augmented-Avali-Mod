@@ -7,7 +7,7 @@
   "price" : 2200,
   "printable" : false,
 
-  "description" : "An Avali integrated processor array. ^cyan;Insert researchable items (fossils, artifacts, geodes) into the Input slot. Computing Units in the top slots boost analysis speed.^reset; ^orange;4 Computing Unit slots + 1 Input + 5 Output slots.^reset;",
+  "description" : "An Avali integrated processor array. ^cyan;Insert ANY item into the Input slot to analyse it for Research points. Place a Computing Unit in the boost slot to speed up analysis.^reset; ^orange;3 slots: Input + Computing boost + Research output.^reset;",
   "shortdescription" : "^cyan;Integrated Processor Array^reset;",
   "race" : "avali",
   "subtitle" : "Examine Research Items",
@@ -24,7 +24,7 @@
     }
   ],
 
-  "slotCount" : 10,
+  "slotCount" : 4,
   "uiConfig" : "/interface/avaliexaminer/avali_examiner.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,

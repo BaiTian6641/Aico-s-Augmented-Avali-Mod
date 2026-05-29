@@ -7,7 +7,7 @@
   "price" : 4500,
   "printable" : false,
 
-  "description" : "An advanced Avali research processor array. ^cyan;Insert any researchable items (fossils, artifacts, bees, geodes) into the Input slot. Computing Units in the top slots greatly boost analysis speed and reward output.^reset; ^orange;8 Computing Unit slots + 1 Input + 5 Output slots. Full tag recognition.^reset;",
+  "description" : "An advanced Avali research processor array. ^cyan;Insert ANY item into the Input slot to analyse it. Place Computing Units in the boost slots to greatly speed up analysis and increase reward yield. Recognises special item tags for bonus currencies.^reset; ^orange;5 slots: Input + 2 Computing boosts + Research & Essence outputs.^reset;",
   "shortdescription" : "^orange;Research Processor Array^reset;",
   "race" : "avali",
   "subtitle" : "Advanced Research Examiner",
@@ -24,7 +24,7 @@
     }
   ],
 
-  "slotCount" : 20,
+  "slotCount" : 6,
   "uiConfig" : "/interface/avaliexaminer/avali_examiner2.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
