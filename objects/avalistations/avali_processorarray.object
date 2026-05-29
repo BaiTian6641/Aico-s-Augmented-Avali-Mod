@@ -2,14 +2,15 @@
   "objectName" : "avali_processorarray",
   "rarity" : "rare",
   "colonyTags" : [ "avali", "science" ],
-  "category" : "wire",
+  "category" : "crafting",
   "objectType" : "container",
   "price" : 2200,
   "printable" : false,
 
-  "description" : "An Avali integrated processor array server rack. ^cyan;Insert Integrated or Combined Computing Units to generate Research points passively.^reset; ^orange;Up to 10 computing units. More units = more power required.^reset;",
+  "description" : "An Avali integrated processor array. ^cyan;Insert researchable items (fossils, artifacts, geodes) into the Input slot. Computing Units in the top slots boost analysis speed.^reset; ^orange;4 Computing Unit slots + 1 Input + 5 Output slots.^reset;",
   "shortdescription" : "^cyan;Integrated Processor Array^reset;",
   "race" : "avali",
+  "subtitle" : "Examine Research Items",
 
   "inventoryIcon" : "avali_processorarray.png",
   "orientations" : [
@@ -24,12 +25,17 @@
   ],
 
   "slotCount" : 10,
-  "uiConfig" : "/interface/chests/chest3.config",
+  "uiConfig" : "/interface/avaliexaminer/avali_examiner.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
   "scripts" : [ "/scripts/fupower.lua", "/scripts/avali_processorarray.lua" ],
   "scriptDelta" : 10,
+
+  "selfWorking" : true,
+  "selfWorkingEfficiency" : 8,
+  "playerWorkingEfficiency" : 18,
+  "microscopeRank" : 1,
 
   "powertype" : "input",
   "inputNodes" : [ [0, 0] ],

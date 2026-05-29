@@ -4,7 +4,7 @@
   "price" : 1200,
   "category" : "craftingMaterial",
   "inventoryIcon" : "avali_combinunit.png",
-  "description" : "A combined modular computing unit consisting of multiple integrated cores working in parallel. ^cyan;Greatly boosts Research output when installed in a Processor Array.^reset;",
+  "description" : "A combined modular computing unit consisting of multiple integrated cores working in parallel. ^cyan;Place in the Computing Unit slots of Processor/Research Arrays for maximum analysis speed and research yield boost.^reset;",
   "shortdescription" : "Combined Computing Unit",
   "itemTags" : [ "reagent" ]
 }

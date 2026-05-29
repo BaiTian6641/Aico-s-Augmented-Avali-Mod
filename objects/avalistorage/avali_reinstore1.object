@@ -1,13 +1,13 @@
 {
   "objectName" : "avali_reinstore1",
   "colonyTags" : [ "avali", "storage" ],
-  "rarity" : "Uncommon",
+  "rarity" : "Legendary",
   "category" : "storage",
-  "price" : 250,
+  "price" : 1500,
   "printable" : false,
 
-  "description" : "A reinforced Avali storage container. Tungsten alloy reinforced for extra durability.",
-  "shortdescription" : "Reinforced Storage Box I",
+  "description" : "A max-capacity reinforced Avali storage container. Tungsten alloy frame with quantum-compressed interior for immense capacity.",
+  "shortdescription" : "^orange;Reinforced Storage Vault I^reset;",
   "race" : "avali",
 
   "inventoryIcon" : "avali_reinstore1.png",
@@ -23,8 +23,8 @@
   ],
 
   "objectType" : "container",
-  "slotCount" : 24,
-  "uiConfig" : "/interface/chests/chest3.config",
+  "slotCount" : 128,
+  "uiConfig" : "/interface/chests/genechest128.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 

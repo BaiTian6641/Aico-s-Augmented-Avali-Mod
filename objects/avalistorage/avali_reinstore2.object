@@ -1,13 +1,13 @@
 {
   "objectName" : "avali_reinstore2",
   "colonyTags" : [ "avali", "storage" ],
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "category" : "storage",
-  "price" : 500,
+  "price" : 2000,
   "printable" : false,
 
-  "description" : "A heavily reinforced Avali storage container. Graphene-enhanced armor plating.",
-  "shortdescription" : "Reinforced Storage Box II",
+  "description" : "A max-capacity heavily reinforced Avali storage container. Graphene-enhanced armor with quantum-locked interior compression for unparalleled storage.",
+  "shortdescription" : "^orange;Reinforced Storage Vault II^reset;",
   "race" : "avali",
 
   "inventoryIcon" : "avali_reinstore2.png",
@@ -23,8 +23,8 @@
   ],
 
   "objectType" : "container",
-  "slotCount" : 32,
-  "uiConfig" : "/interface/chests/chest3.config",
+  "slotCount" : 128,
+  "uiConfig" : "/interface/chests/genechest128.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 

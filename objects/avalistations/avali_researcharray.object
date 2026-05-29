@@ -2,14 +2,15 @@
   "objectName" : "avali_researcharray",
   "rarity" : "legendary",
   "colonyTags" : [ "avali", "science" ],
-  "category" : "wire",
+  "category" : "crafting",
   "objectType" : "container",
   "price" : 4500,
   "printable" : false,
 
-  "description" : "An advanced Avali research processor array. ^cyan;Insert Computing Units to boost speed, and research items to generate points.^reset; ^orange;Up to 20 slots. Research different items for various point types. More slots filled = more power required.^reset;",
+  "description" : "An advanced Avali research processor array. ^cyan;Insert any researchable items (fossils, artifacts, bees, geodes) into the Input slot. Computing Units in the top slots greatly boost analysis speed and reward output.^reset; ^orange;8 Computing Unit slots + 1 Input + 5 Output slots. Full tag recognition.^reset;",
   "shortdescription" : "^orange;Research Processor Array^reset;",
   "race" : "avali",
+  "subtitle" : "Advanced Research Examiner",
 
   "inventoryIcon" : "avali_researcharray.png",
   "orientations" : [
@@ -24,12 +25,17 @@
   ],
 
   "slotCount" : 20,
-  "uiConfig" : "/interface/chests/chest3.config",
+  "uiConfig" : "/interface/avaliexaminer/avali_examiner2.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
   "scripts" : [ "/scripts/fupower.lua", "/scripts/avali_researcharray.lua" ],
   "scriptDelta" : 10,
+
+  "selfWorking" : true,
+  "selfWorkingEfficiency" : 10,
+  "playerWorkingEfficiency" : 22,
+  "microscopeRank" : 2,
 
   "powertype" : "input",
   "inputNodes" : [ [0, 0] ],

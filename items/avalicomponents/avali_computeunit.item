@@ -4,7 +4,7 @@
   "price" : 400,
   "category" : "craftingMaterial",
   "inventoryIcon" : "avali_computeunit.png",
-  "description" : "An all-in-one integrated computing unit. The core processing module for Avali server arrays. ^cyan;Generates Research points when installed in a Processor Array.^reset;",
+  "description" : "An all-in-one integrated computing unit. The core processing module for Avali server arrays. ^cyan;Place in the Computing Unit slots of Processor/Research Arrays to boost analysis speed and research yield.^reset;",
   "shortdescription" : "Integrated Computing Unit",
   "itemTags" : [ "reagent" ]
 }

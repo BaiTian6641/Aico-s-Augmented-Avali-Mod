@@ -1,13 +1,13 @@
 {
   "objectName" : "avali_embstore",
   "colonyTags" : [ "avali", "storage" ],
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "category" : "storage",
-  "price" : 120,
+  "price" : 1200,
   "printable" : false,
 
-  "description" : "A sleek embedded storage unit. Fits flush against Avali walls.",
-  "shortdescription" : "Embedded Storage Box",
+  "description" : "A sleek max-capacity embedded storage unit. Utilizes quantum-compressed subspace folding for immense storage. Fits flush against Avali walls.",
+  "shortdescription" : "^orange;Embedded Storage Vault^reset;",
   "race" : "avali",
 
   "inventoryIcon" : "avali_embstore.png",
@@ -23,8 +23,8 @@
   ],
 
   "objectType" : "container",
-  "slotCount" : 16,
-  "uiConfig" : "/interface/chests/chest3.config",
+  "slotCount" : 128,
+  "uiConfig" : "/interface/chests/genechest128.config",
   "frameCooldown" : 67,
   "autoCloseCooldown" : 3600,
 
